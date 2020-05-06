@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HTML Form Validator</title>
+
+  <link rel="stylesheet" href="./css/style.css">
+
+  <script src="./js/script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+  <h1>Register with Us</h1>
+  <form>
+    <div class="form-control">
+      <label for="username">Username</label>
+      <input type="text" placeholder="Enter username" id="username">
+      <small>Error message</small>
+    </div>
+    <div class="form-control">
+      <label for="email">Email</label>
+      <input type="text" placeholder="Enter email address" id="email">
+      <small>Error message</small>
+    </div>
+    <div class="form-control">
+      <label for="password">Password</label>
+      <input type="password" placeholder="Enter password" id="password">
+      <small>Error message</small>
+    </div>
+    <div class="form-control">
+      <label for="repeat-password">Repeat password</label>
+      <input type="password" placeholder="Repeat password" id="repeat-password">
+      <small>Error message</small>
+    </div>
+
+    <p>By signing up you agree to our <a href="#">terms and conditions of service</a> and our<a href="#"> privacy policy</a></p>
+    <div class="form-control">
+      <button type="submit">Submit<span>&#8594;</span></button>
+    </div>
+    <p>Already have an account?<a href="#">Login Here</a>
+  </form>
+</div>
+</body>
+</html>
